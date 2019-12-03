@@ -10,6 +10,17 @@
 </head>
 
 <body>
+  <table>
+    <tr>
+      <td><%= link_to "Cars", cars_path %></td>
+      <td><%= link_to "makes", makes_path %></td>
+      <td><%= link_to "parts", parts_path %></td>
+    </tr>
+  </table>
+
+  <p class="notice"><%= notice %></p>
+  <p class="alert"><%= alert %></p>
+
 <%= yield %>
 </body>
 </html>
